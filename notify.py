@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import requests as requests
 
 
-def check_availability(zip_codes, date_ranges, radius=5, vac_name="Moderna"):
+def check_availability(zip_codes, date_ranges, radius=4, vac_name="Moderna"):
     found = False
 
     for zip_ in zip_codes:
