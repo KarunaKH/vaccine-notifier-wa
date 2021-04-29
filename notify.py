@@ -43,5 +43,5 @@ def check_availability(zip_codes, date_ranges, radius=4, vac_name="Moderna"):
 
 if __name__ == "__main__":
     zip_codes = ["98101"]
-    date_range = [datetime.date(2021, 4, 28), datetime.date(2021, 4, 30)]
+    date_range = [datetime.date(2021, 4, 29), datetime.date(2021, 5, 1)]
     check_availability(zip_codes, date_range)
